@@ -1,8 +1,18 @@
 # 🌐 Digital Habits and Mental Health  
 ### Exploring the Impact of Screen Time and Digital Behavior on Psychological Wellbeing 🤖  
 
-A complete data science project examining how **digital lifestyles** affect **mental health** outcomes — including anxiety, depression, stress, happiness, and productivity.  
-Includes a tabular dataset of **3,500 participants** with **24 research-inspired features**, plus a reproducible notebook for **EDA, feature engineering, modeling, and explainability**.
+A complete data science project examining how **digital lifestyles** influence **mental health** outcomes — including anxiety, depression, stress, happiness, focus, and productivity.  
+Includes a tabular dataset of **3,500 synthetic participant records** with **24 research-inspired features**, plus a reproducible notebook for **EDA, feature engineering, modeling, and explainability**.
+
+---
+
+## 🔎 Important Note on Scoring
+
+Psychological and behavioral indicators  
+(e.g., `anxiety_score`, `depression_score`, `stress_level`, `happiness_score`, `focus_score`, `productivity_score`, `digital_dependence_score`)  
+are generated as **continuous synthetic scores modeled on a broad 0–100 range**, **not** fixed **0–10 Likert items**.
+
+This provides richer variance and makes the dataset more suitable for ML modeling and behavioral analytics.
 
 ---
 
@@ -52,7 +62,7 @@ It is defined using a scoring rule that blends:
 - Elevated stress/anxiety levels  
 - Lower happiness/focus scores  
 
-Approximate distribution: **15–20% high-risk** to reflect population-level prevalence observed in behavioral research.
+Approximate distribution: **15–20% high-risk**, reflecting prevalence reported in behavioral research.
 
 ---
 
@@ -71,17 +81,3 @@ pip install -r requirements.txt
 
 # Run the main notebook
 jupyter notebook notebooks/predicting-wellbeing-risk.ipynb
-
-```
-
----
-
-## 🔬 Use Cases
-
-- Predict mental-health risk from digital activity patterns.  
-- Study correlation between digital dependence, stress, and sleep.  
-- Build explainable AI models (SHAP/LIME) for behavioral insights.  
-- Segment users by lifestyle balance and cognitive performance.  
-- Reframe as regression tasks for continuous wellbeing indicators.
-
----
