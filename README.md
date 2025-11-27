@@ -1,4 +1,7 @@
-# 🌐 Digital Habits and Mental Health  
+# 🌐 Digital Habits and Mental Health
+
+**Author:** [Tarek Masryo](https://github.com/tarekmasryo) · [Kaggle](https://www.kaggle.com/datasets/tarekmasryo/digital-health-and-mental-wellness)  
+
 ### Exploring the Impact of Screen Time and Digital Behavior on Psychological Wellbeing 🤖  
 
 A complete data science project examining how **digital lifestyles** influence **mental health** outcomes — including anxiety, depression, stress, happiness, focus, and productivity.  
