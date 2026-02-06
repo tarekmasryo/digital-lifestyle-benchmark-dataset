@@ -73,8 +73,8 @@ Approximate distribution: **15–20% high-risk**, reflecting prevalence reported
 
 ```bash
 # Clone
-git clone https://github.com/TarekMasryo/health-intelligence-platform.git
-cd health-intelligence-platform
+git clone https://github.com/TarekMasryo/digital-lifestyle-benchmark-dataset.git
+cd digital-lifestyle-benchmark-dataset
 
 # (Optional) create venv
 python -m venv .venv && source .venv/bin/activate
